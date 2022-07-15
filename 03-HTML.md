@@ -28,3 +28,42 @@ HTML harus memiliki struktur dasar yang terdiri dari 4 bagian utama yaitu tag DO
 </body>
 </html>
 ```
+
+### HTML Anatomy
+```
+<tagpembuka>Isi konten</tagpenutup>
+```
+
+### HTML Element
+Pada section HTML Anatomy sebelumnya, HTML Element dapat didefinisikan dengan tagpembuka, konten, dan tagpenutup. Berikut contoh HTML Element.
+```
+<body>
+  <div>
+   <!-- Element heading -->
+   <h1>Konten</h1>
+
+   <!-- Element paragraph -->
+   <p>Konten</p>
+
+   <!-- Element link -->
+   <a href="https://google.com">Menuju google.com</a>
+  </div>
+</body>
+```
+
+### HTML Comment
+HTML Comment digunakan untuk memberikan penjelasan maksud dari line code yang kita kerjakan. Comment ini selalu ada dalam bahasa pemrograman apapun. Comment tidak akan di eksekusi oleh sistem, comment hanya untuk dibaca oleh sesama programmer.
+```
+<body>
+ <div>
+  <!-- Ini adalah sintax comment HTML -->
+ </div>
+</body>
+```
+
+### Cara membaca dokumnetasi
+Untuk dapat melihat seluruh element yang ada di HTML, kita bisa cek dokumentasi yang disediakan oleh HTML seperti.
+```
+Resource by Mozilla
+Documentation by W3schools
+```
