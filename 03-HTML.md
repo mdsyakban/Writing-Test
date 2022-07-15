@@ -6,18 +6,15 @@ HTML bersifat statis, ia hanya bertugas untuk menampilkan konten yang diminta ol
 Dalam membuat HTML, ada 2 tools utama yang harus dipersiapkan terlebih dahulu :
 
 1. Browser
-
-Browser adalah salah satu perangkat lunak yang umumnya digunakan untuk membuka suatu halaman website di internet.
-
 2. Code Editor
 
-Dasar - Dasar HTML
+### Dasar - Dasar HTML
 
 Kita bisa menuliskan HTML tanpa structure dan kita tetap akan bisa menjalankannya akan tetapi untuk menjalankannya dengan baik maka kita perlu HTML structure. Contoh HTML tanpa structure :
 ```
 Saya sedang belajar HTML
 ```
-HTML Structure
+### HTML Structure
 
 HTML harus memiliki struktur dasar yang terdiri dari 4 bagian utama yaitu tag DOCTYPE, tag html, tag head, tag body. 4 Bagian tersebut adalah syarat minimal yang menjadi standar pada struktur global dokumen HTML.
 ```
