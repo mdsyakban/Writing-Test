@@ -29,7 +29,7 @@ git config --list
 ```
 git init
 ```
-> *Note : Lakukan  di dalam folder proyek yang akan di inisialisasi*
+> *`Note : Lakukan  di dalam folder proyek yang akan di inisialisasi`*
 
 - Cek status :
 ```
