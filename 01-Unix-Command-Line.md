@@ -20,4 +20,4 @@ Command Line adalah suatu shell berbasis teks, sementara shell itu sendiri adala
 | rm -r | Hapus folder |
 | mkdir | Membuat folder |
 | mkdir "" | Membuat nama folder dengan spasi |
-| pwd | Untuk melihat current working directory |
+| pwd | Untuk mengetahui direktori mana yang sedang kita buka saat ini |
