@@ -151,7 +151,7 @@ style.css
 Maka heading pertama akan berwarna merah dan menjadi huruf besar, sedangkan heading kedua akan berwarna merah dan menjadi huruf kecil.
 
 ### CSS - ID Name
-Berbeda dengan Class Name. ID Name bersifat unik artinya hanya ada 1 nama ID pada 1 element HTML.
+Berbeda dengan Class Name. ID Name bersifat unik artinya hanya ada 1 nama ID pada 1 element HTML. Biasanya digunakan jika hanya ada 1 element pada 1 page contohnya navigation, header, footer. Jadi kita bisa gunakan ID jika element tersebut unik dan hanya ada 1.
 ```
 <body>
   <!-- ID NAVIGATION -->
@@ -203,4 +203,58 @@ h1 {
 /* Styling berlaku untuk semua element tag h1 yang memiliki class titleGalery */
 h1.titleGalery {
   color: green;
+```
+
+### Nested Element
+Konsep CSS sama dengan HTML yaitu setiap element memiliki parent dan child.
+```
+index.html
+
+<body>
+  <div>
+    <h1>Hai this is my blog</h1>
+    <p>I love learning and sharing</p>
+  </div>
+  
+  <!-- Nested Element -->
+  <div class="parentGalery">
+  <h1>My Galery</h1>
+  <img src="image/my-photo.jpg" width="400">
+</body>
+```
+```
+style.css
+
+/* Child pada class parentGalery akan mengikuti styling/desain rules dari parent. Element tag heading dan image didalam class ini akan ikut berubah. */
+
+.parentGalery {
+  text-align; center;
+}
+```
+Maka hasil nya My Galery dan juga image nya akan berada di tengah atau center.
+
+### Multiple Selector
+Sebagai seorang programmer handal, kita perlu latihan dan terbiasa membuat code yang efektif. Jangan mengerjakan code yang sama berulang kali. Pada CSS kita bisa membuat code lebih efisien dan tidak berulang-ulang.
+
+Contoh style yang tidak menggunakan multiple selector :
+```
+h1 {
+  color: brown;
+  font-family: 'Nunito', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+```
+Contoh style yang menggunakan selector :
+```
+h1 {
+  color: brown;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, p {
+  font-family: 'Nunito', sans-serif;
+}
 ```
