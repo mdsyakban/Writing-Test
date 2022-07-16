@@ -148,7 +148,7 @@ style.css
   text-transform: lowercase;
 }
 ```
-Maka heading pertama akan berwarna merah dan menjadi huruf besar, sedangkan heading kedua akan berwarna merah dan menjadi huruf kecil.
+Maka heading pertama akan berwarna brown dan menjadi huruf besar, sedangkan heading kedua akan berwarna merah dan menjadi huruf kecil.
 
 ### CSS - ID Name
 Berbeda dengan Class Name. ID Name bersifat unik artinya hanya ada 1 nama ID pada 1 element HTML. Biasanya digunakan jika hanya ada 1 element pada 1 page contohnya navigation, header, footer. Jadi kita bisa gunakan ID jika element tersebut unik dan hanya ada 1.
