@@ -47,6 +47,10 @@ git add.
 ```
 git commit -m "Pesan Commit" 
 ```
+- Mendaftarkan repository yang telah dibuat pada github
+```
+git remote add origin https://github.com/mdsyakban/proyek01 
+```
 Mengirimkan ke version control :
 ```
 git push -u origin master
