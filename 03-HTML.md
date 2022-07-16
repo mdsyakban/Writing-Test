@@ -67,3 +67,33 @@ Untuk dapat melihat seluruh element yang ada di HTML, kita bisa cek dokumentasi 
 Resource by Mozilla
 Documentation by W3schools
 ```
+
+Contoh html sederhana :
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+</head>
+<body>
+    <div>
+        <h1>Hai this is my blog</h1>
+        <p>I love learning and sharing</p>
+    </div>
+    <div>
+        <h1>My Profile</h1>
+        <ul>
+            <li>Name : Ahmad Syakban</li>
+            <li>Age : 22 years old</li>
+            <li>Education : Sumbawa University Of Technology</li>
+            <li>Major : Informatic Engineering</li>
+            <li>Address : Sumbawa</Address></li>
+        </ul>
+    </div>
+    <div>My Galeri</div>
+    <img src="20200428_112033.jpg" width="400">
+</body>
+</html>
+```
