@@ -61,7 +61,7 @@ HTML Comment digunakan untuk memberikan penjelasan maksud dari line code yang ki
 </body>
 ```
 
-### Cara membaca dokumnetasi
+### Cara membaca dokumentasi
 Untuk dapat melihat seluruh element yang ada di HTML, kita bisa cek dokumentasi yang disediakan oleh HTML seperti.
 ```
 Resource by Mozilla
