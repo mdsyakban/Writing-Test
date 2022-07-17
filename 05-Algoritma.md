@@ -5,7 +5,8 @@ Algoritma adalah suatu deskripsi yang berupa tahapan - tahapan secara runtut dal
 
 Kualitas wajib dari suatu algoritma :
 - Input dan output harus didefinisikan terlebih dahulu dengan tepat. Contoh telur ayam mentah menjadi telur dadar.
-- Setiap tahap harus benar - benar clear dan tidak boleh ambigu. - Algoritma seharusnya tidak mengandung suatu code pada bahasa pemrograman tertentu. Algoritma harus dibuat agar dapat digunakan dalam bahasa pemrograman apapun.
+- Setiap tahap harus benar - benar clear dan tidak boleh ambigu. 
+- Algoritma seharusnya tidak mengandung suatu code pada bahasa pemrograman tertentu. Algoritma harus dibuat agar dapat digunakan dalam bahasa pemrograman apapun.
 
 Kenapa kita harus belajar algoritma ?
 
@@ -76,7 +77,8 @@ Looping merupakan suatu proses perulangan pernyataan dalam kasus tertentu, perul
 ```
 STORE "full level" with 0
 
-WHILE "full level" by 1
+WHILE "full level" < 5
+ ADD "full level" by 1
 
 DISPLAY "I'm Full!"
 ```
