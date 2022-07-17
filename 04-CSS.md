@@ -153,6 +153,8 @@ Maka heading pertama akan berwarna brown dan menjadi huruf besar, sedangkan head
 ### CSS - ID Name
 Berbeda dengan Class Name. ID Name bersifat unik artinya hanya ada 1 nama ID pada 1 element HTML. Biasanya digunakan jika hanya ada 1 element pada 1 page contohnya navigation, header, footer. Jadi kita bisa gunakan ID jika element tersebut unik dan hanya ada 1.
 ```
+index.html
+
 <body>
   <!-- ID NAVIGATION -->
   <div id="navigation">
@@ -161,12 +163,50 @@ Berbeda dengan Class Name. ID Name bersifat unik artinya hanya ada 1 nama ID pad
     <li><a href="#">About Me</a></li>
     <li><a href="#">My Journal</a></li>
     </ul>
- </div>
- <div>
+  </div>
+  <div>
     <h1 class="title">Hai this is my blog</h1>
     <p>I love learning and sharing</p>
- </div>
+  </div>
+  <div>
+    <h1>My Profile</h1>
+    <ul>
+    <li>Name : Ahmad Syakban</li>
+    <li>Age : 22 years old</li>
+    <li>Education : Sumbawa University of Technologi</li>
+    <li>Major : Informatic Engineering</li>
+    <li>Adress : Sumbawa</li>
+    </ul>
+  </div>
+  <div>
+    <h1>My Galeri</h1>
+  </div>
+  <img src="20200428_112033.jpg" width="400" alt="Air terjun">
+</body>
 ```
+```
+style.css
+
+.title {
+  color: brown;
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li {
+  display: inline;
+  padding: 15px;
+}
+
+#navigation li a{
+  text-decoration: none;
+}
+```
+Gunakan tanda pagar (#) untuk memanggil element ID HTML pada CSS
 Perbedaan class name dan id name :
 
 Gunakan ID Name jika hanya ada 1 element pada file/halaman HTML contohnya navigation dan footer.
