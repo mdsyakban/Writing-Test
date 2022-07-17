@@ -290,7 +290,6 @@ Contoh style yang menggunakan selector :
 ```
 h1 {
   color: brown;
-  font-family: 'Nunito', sans-serif;
 }
 
 h1, p {
