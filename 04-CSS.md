@@ -206,8 +206,7 @@ style.css
   text-decoration: none;
 }
 ```
-Gunakan tanda pagar (#) untuk memanggil element ID HTML pada CSS
-Perbedaan class name dan id name :
+Gunakan tanda pagar (#) untuk memanggil element ID HTML pada CSS. Perbedaan class name dan id name :
 
 Gunakan ID Name jika hanya ada 1 element pada file/halaman HTML contohnya navigation dan footer.
 
