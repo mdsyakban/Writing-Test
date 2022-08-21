@@ -41,6 +41,7 @@ body {
 }
 ```
 2. kita menggabungkan 1 file css untuk setting styling berbagai device.
+
 ![](Gmbr3.png)
 
 
