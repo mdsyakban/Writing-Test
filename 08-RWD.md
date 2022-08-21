@@ -71,10 +71,14 @@ Dari gambar diatas menjelaskan jika kita menggunakan media query dengan ukuran m
   </div>
 </div>
 ```
-- Hasilnya:
+
+Hasilnya:
+
 ![](Gmbr5.png)
-- *Contoh di atas membuat tiga kolom dengan lebar yang sama di semua perangkat dan area pandang menggunakan kelas kisi yang telah ditentukan sebelumnya. Kolom tersebut dipusatkan di halaman dengan induknya .container*.
-- **Sistem grid Bootstrap dapat beradaptasi di keenam breakpoint default, dan setiap breakpoint yang Anda sesuaikan. Enam tingkatan grid default adalah sebagai berikut:**
+
+*Contoh di atas membuat tiga kolom dengan lebar yang sama di semua perangkat dan area pandang menggunakan kelas kisi yang telah ditentukan sebelumnya. Kolom tersebut dipusatkan di halaman dengan induknya .container*.
+
+**Sistem grid Bootstrap dapat beradaptasi di keenam breakpoint default, dan setiap breakpoint yang Anda sesuaikan. Enam tingkatan grid default adalah sebagai berikut:**
 
 1. Ekstra kecil (xs)
 2. Kecil (sm)
